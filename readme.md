@@ -3,9 +3,6 @@
 Live demo: https://<yourname>.github.io/<repo>/
 Repo: https://github.com/<yourname>/<repo>
 
-## Project Layout
-
-
 ## Pitch
 1–2 sentences about the premise and tone.
 
@@ -22,12 +19,12 @@ Repo: https://github.com/<yourname>/<repo>
 ## Repo Layout
 ```
 Gothic_Archives/
-├── game
+├── game/
 │   ├── assets
 │   ├── scenes
 │   ├── scripts
 │   └── styles
-├── docs
+├── docs/
 │   ├── flowchart.png
 │   └── design_notes.md
 ├── index.html

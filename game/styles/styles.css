@@ -3,10 +3,17 @@ body {
     text-align: center;
 }
 
-.window{
+.title{
+    background-color: antiquewhite;
+}
 
+.description{
+    background-color: antiquewhite;
+}
+.window{
+    background-color: antiquewhite;
 }
 
 .log{
-    
+    background-color: antiquewhite;
 }
