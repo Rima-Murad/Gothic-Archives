@@ -40,5 +40,9 @@ Contributors:
 - [Nhi Pham](https://github.com/bunnhimaybe)
 
 Images: 
+- Pinterest - [Book Header Icon](https://www.pinterest.com/pin/3307399720941471/)
 - Colorazen - [Library](https://colorazen.com/creative-drawing/798-a-haunted-gothic-library-with-towering-bookshelves-6742aba129e3a)
 - Free3D - [Statue](https://free3d.com/3d-model/gargoyle-demon-statue-7262.html)
+- [Tenor](https://tenor.com/) - other images
+- Nicolas Ladino, Unsplash - [Door](https://unsplash.com/photos/a-large-wooden-door-VZjqBKPaOws)
+- Alasdair Braxton, Pexels - [Door](https://www.pexels.com/photo/historic-neo-gothic-library-interior-in-scotland-33705332/)
