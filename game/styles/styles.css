@@ -1,19 +1,134 @@
+/* element selectors */
 body {
-    background-color: lightgrey;
+    background-color: wheat;
     text-align: center;
 }
 
-.title{
-    background-color: antiquewhite;
+
+/* id selectors */
+#title{
+  border-radius: 15px;
+  outline-style: solid;
+  outline-color: tan;
+  outline-width: 8px;
+
+  background-image: url('../assets/paper-texture.jpg');
+  background-size: cover;
+  padding: 1px;
+  
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.description{
-    background-color: antiquewhite;
-}
+
+/* class selectors */
 .window{
-    background-color: antiquewhite;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px auto;
+  height: 50%;
+  width: 90%;
 }
 
-.log{
-    background-color: antiquewhite;
+.window img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bottom-window{
+  display: flex;
+  height: 25vh;
+  width: 90%;
+  gap: 20px;
+}
+
+.bottom-window .inventory{
+  background-color: antiquewhite;
+  border-radius: 15px;
+  display: flex;
+  width: 200px;
+  aspect-ratio: 1/1;
+  padding: 10px;
+}
+
+.bottom-window .inventory img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bottom-window .game{
+  background-color: antiquewhite;
+  border-radius: 15px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px; 
+}
+
+.bottom-window .game .text{
+  background-color: antiquewhite;
+  border-radius: 15px;
+  display: flex;
+  
+  text-align: center;
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bottom-window .game .description{
+  display: flex;
+  height: 20%;
+  width: 90%;
+  justify-content: space-between;
+  
+  background-color: antiquewhite;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-align: center;
+  
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+/* font families - copy into classes*/
+.uncial-antiqua-regular {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caudex-regular {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caudex-bold {
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.caudex-regular-italic {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.caudex-bold-italic {
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: italic;
 }
