@@ -43,6 +43,7 @@ Images:
 - [Book (icon)](https://www.vexels.com/png-svg/preview/140908/open-book-icon) - Vexels
 - [Books (shelf)](https://stockcake.com/i/timeless-library-treasures_3015100_1618021) - StockCake
 - [Books (return)](https://www.istockphoto.com/videos/book-shelf) - iStock
+- [Charm](https://www.ninadesigns.com/sterling-silver-gothic-window-charm-33x19mm) - Nina Designs
 - [Ghost](https://ghostbusters.fandom.com/wiki/Library_ghost) - Ghostbusters Fandom
 - [Librarian](https://thegardenhistory.blog/2015/05/23/the-smallest-clever-man-i-ever-knew/) - The Garden History Blog 
 - [Library](https://stockcake.com/i/gothic-library-interior_1095234_958463) - StockCake

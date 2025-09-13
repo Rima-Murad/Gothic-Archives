@@ -1,9 +1,9 @@
 <html>
     <head>
         <title>Gothic Archives</title>
-        <link rel='icon' href='assets/book.png'/>
-        <link rel=stylesheet href='../../styles/styles.css'/>
-
+        <link rel='icon' href='../../assets/book-closed.png'/>
+        <link rel=stylesheet href='../../styles/styles.css'>
+        
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,33 +11,48 @@
     </head>
     
     <body>
-        <body>
-        <div class='title uncial-antiqua-regular'>
+        <div id='title'>
             <h1> GOTHIC ARCHIVES </h1>
-            <hr><hr>
         </div>
-
-        <div class='description caudex-bold'>
-            <h2> FANTASY SECTION </h2>
+        
+        <div class='caption'>
+            <p> HISTORY SECTION </p>
         </div>
-
+        
         <div class='window'>
-            <img align=center src='../../assets/gargoyle.jpg' height=600/>
+            <img src='../../assets/statue.jpg'/>
         </div>
 
-        <div class='log'>
-            <p>
-                The Fantasy books section has a terrifying gargoyle statue. 
-                You nearly have a heart attack when you hear it speak!
-                "HEY!!! Fresh meat, my favorite!"                
-            </p>
-            <p> What should you do? </p>
-            <a href='shelf.html'>
-                <button> Scream for the mercy of God </button>
-            </a>
-            <a href='shelf.html'>
-                <button> Give it something to eat. </button>
-            </a>
+        <div class='bottom-window'>
+            <div class='inventory'>
+                <img id="book" src='../../assets/book-closed.png'/>
+            </div> 
+
+            <div class='game'> 
+                <div class='text'>
+                    <p> The statue wants something.</p>
+                </div>
+
+                <div class='description'> 
+                    <ul>
+                        <li>
+                            <a id="history-statue" href=''> Give it a gift. </a>
+                        </li>
+                        <li>
+                            <a id="return" href='history.html'> So what? </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
+        <div class=footer>
+            <hr>
+            <p>
+                Story and code by Rima Murad and Nhi Pham
+            </p>
+        </div>
+
+        <script src="../../scripts/book.js"></script>
     </body>
 </html>
