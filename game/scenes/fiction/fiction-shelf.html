@@ -1,8 +1,8 @@
 <html>
     <head>
         <title>Gothic Archives</title>
-        <link rel='icon' href='game/assets/book-closed.png'/>
-        <link rel=stylesheet href='game/styles/styles.css'>
+        <link rel='icon' href='../../assets/book-closed.png'/>
+        <link rel=stylesheet href='../../styles/styles.css'>
         
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,29 +14,34 @@
         <div id='title'>
             <h1> GOTHIC ARCHIVES </h1>
         </div>
-
+        
         <div class='caption'>
-            <p>
-                <a href='game/scenes/intro/intro.html'> <button>PLAY</button> </a>
-            </p>
+            <p> FICTION SECTION </p>
         </div>
         
         <div class='window'>
-            <img src='game/assets/library.jpg'/>
+            <img src='../../assets/reshelf.jpg'/>
         </div>
 
         <div class='bottom-window'>
             <div class='inventory'>
+                <img id="book" src='../../assets/book-closed.png'/>
             </div> 
 
             <div class='game'> 
                 <div class='text'>
-                    <p> Your first day as a librarian begins... but something about the library doesn't seem right.
-                    Its halls are old and eerie, hiding secrets and unseen dangers at every turn. </p>
-                    <p> Explore and uncover its mysteries in this interactive text-adventure game. </p>
+                    <p> Do you think the book belongs here?</p>
                 </div>
 
                 <div class='description'> 
+                    <ul>
+                        <li>
+                            <a id="fiction-reshelf" href=''>Yes, put it back.</a>
+                        </li>
+                        <li>
+                            <a id="return" href='fiction.html'>No, don't think so.</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -47,5 +52,7 @@
                 Story and code by Rima Murad and Nhi Pham
             </p>
         </div>
+
+        <script src="../../scripts/book.js"></script>
     </body>
 </html>
