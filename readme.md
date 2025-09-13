@@ -44,6 +44,7 @@ Images:
 - [Librarian](https://thegardenhistory.blog/2015/05/23/the-smallest-clever-man-i-ever-knew/) - The Garden History Blog 
 - [Library](https://stockcake.com/i/gothic-library-interior_1095234_958463) - StockCake
 - [Paper texture](https://www.freepik.com/premium-photo/vintage-paper-texture-background-with-copy-space-space-text_16110051.htm) - Freepik
+- [Statue](https://www.amazon.com/Sculpture-Halloween-Haunted-Collectibles-Decoration/dp/B0CFBBWL54) - Amazon
 
 
 - Colorazen - [Library](https://colorazen.com/creative-drawing/798-a-haunted-gothic-library-with-towering-bookshelves-6742aba129e3a)
