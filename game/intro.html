@@ -2,8 +2,8 @@
     <head>
         <title>Gothic Archives</title>
         <link rel='icon' href='assets/book-closed.png'/>
-        <link href='styles/styles.css' rel=stylesheet>
-    
+        <link rel=stylesheet href='styles/styles.css'>
+        
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,31 +11,52 @@
     </head>
     
     <body>
-        <div class='title uncial-antiqua-regular'>
+        <div id='title'>
             <h1> GOTHIC ARCHIVES </h1>
-            <hr><hr>
+        </div>
+        
+        <div class='window'>
+            <img <img src='assets/librarian.jpg'/>
         </div>
 
-        <div class='description caudex-bold'>
-            <h2> FRONT DESK </h2>
+        <div class='bottom-window'>
+            <div class='inventory'>
+                <img src='assets/book-closed.png'/>
+            </div> 
+
+            <div class='game'> 
+                <div class='text'>
+                    <p> At the front desk, a pale, nervous old man waits for you.
+                    He slides a worn book across the counter. "Can you... put this away for me?” he mutters. 
+                    Before you could say anything, he disappears into the shelves.
+                    But the book has no title or markings. </p>
+
+                    <p>You’ll need to decide for yourself where it belongs.</p>
+                    <p> Where should you look? </p>
+                    <ul>
+                        <li>
+                            <a id="history" href="scenes/history/ghost.html">History</a>
+                        </li>
+                        <li>
+                            <a id="fantasy" href="scenes/fantasy/statue.html">Fantasy</a>
+                        </li>
+                        <li>
+                            <a id="science" href="scenes/science/closet.html">Science</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='description'> 
+                    <p> FRONT DESK </p>
+                </div>
+            </div>
         </div>
 
-        <div class=window>
-            <img align=center src='https://media1.tenor.com/m/fzmWiaxEhUcAAAAd/library.gif'/>
-        </div>
-
-        <div class='log' align=center>
-            <p> The woman at the front desk gives you a book. She tells you to put it back where it belongs. </p>
-            <p> What section do you want to look at? </p>
-            <ul>
-                <a id="history" href="scenes/history/ghost.html">History</a>
-            </ul>
-            <ul>
-                <a id="fantasy" href="scenes/fantasy/statue.html">Fantasy</a>
-            </ul>
-            <ul>
-                <a id="science" href="scenes/science/closet.html">Science</a>
-            </ul>
+        <div class=footer>
+            <hr>
+            <p>
+                Story and code by Rima Murad and Nhi Pham
+            </p>
         </div>
     </body>
 </html>
