@@ -135,13 +135,15 @@ button {
   font-style: normal;
 }
 .bottom-window .game .description{
+  display: flex;
   flex: none;
   flex-direction: column;
   margin-top: auto; /* align to bottom */
   margin-bottom: 5px;
-  
-  text-align: center;
   min-height: 0;
+  
+  align-items: center; /* horizontal */
+  text-align: center;
   font-family: "Caudex", serif;
   font-weight: 1000;
   font-style: italic;

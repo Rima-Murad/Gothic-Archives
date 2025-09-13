@@ -1,18 +1,14 @@
-const inventoryImg = document.getElementById('book');
-const textWindow = document.getElementById('text-window')
+const shelfFiction = document.getElementById('return-fiction');
+const shelfHistory = document.getElementById('return-history')
+const description = document.getElementById('description')
 const currentURL = window.location.pathname;
 
 // opens and closes the book when you click on inventory
 
 inventoryImg.addEventListener('click', () => {
-    if (inventoryImg.src.includes('book-closed.png')) {
-        inventoryImg.src="../../assets/book-open.png";
-    } else {
-        inventoryImg.src="../../assets/book-closed.png";
-    }
 
-    // if on the correct page, display secret message only once
-    if (currentURL.includes('window.html')) { // check that msg has not been displayed
+    // if at incorrect shelf location, display losing image
+    if (currentURL.includes('return.html')) { // check that msg has not been displayed
         if ( !(document.getElementById('secret-msg')) ) {
             const secretMsg = document.createElement('p');
             secretMsg.id = 'secret-msg';
