@@ -11,6 +11,19 @@ ul {
   font-style: italic;
   margin: 0 auto;
 }
+button {
+  display:flex;
+  flex-direction: row;
+  padding: 5px 50px; /* corrected units */
+  margin: 10px;
+  gap: 5px;
+
+  font-family: "Caudex", serif;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 16px;
+  color: darkslateblue;
+}
 
 /* ID SELECTORS */
 #title{
@@ -22,7 +35,7 @@ ul {
   background-image: url('../assets/paper-texture.jpg');
   background-size: cover;
   padding: 1px;
-  
+
   font-family: "Uncial Antiqua", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -31,6 +44,23 @@ ul {
 
 
 /* CLASS SELECTORS */
+.caption{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: 95%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+
+  height: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: "Caudex", serif;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 16px;
+}
 
 /* game graphics */
 .window{
@@ -39,7 +69,7 @@ ul {
   padding: 10px;
   height: 50vh;
   width: 90%;
-  margin: 20px auto;
+  margin: 10px auto;
   
   display: flex;
   justify-content: center; /* horizontal */
@@ -53,9 +83,11 @@ ul {
 
 /* bottom pane */
 .bottom-window{
-  display: flex;
+  display: flex;  
+  max-width: 100%;
+  max-height: 100%;
 
-  height: 25vh;
+  height: 20vh;
   width: 95%;
   min-height: 200px;
   gap: 20px;
@@ -106,6 +138,7 @@ ul {
   flex: none;
   flex-direction: column;
   margin-top: auto; /* align to bottom */
+  margin-bottom: 5px;
   
   text-align: center;
   min-height: 0;
@@ -116,7 +149,7 @@ ul {
 
 
 
-/* font families - copy into classes*/
+/* font families - copied into classes*/
 .uncial-antiqua-regular {
   font-family: "Uncial Antiqua", system-ui;
   font-weight: 400;
