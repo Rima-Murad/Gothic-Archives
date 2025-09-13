@@ -16,7 +16,7 @@
         </div>
 
         <div class='caption'>
-            <p> HISTORY SECTION </p>
+            <p> HISTORY - GHOST </p>
         </div>
 
         <div class='window'>
@@ -30,18 +30,15 @@
 
             <div class='game'>
                 <div class='text'>
-                    <p> It wants your book! </p>
+                    <p> It's a ghost! It's blocking your way. "You don't belong here!" </p>
+                    <p> It notices the book you're holding and hisses. </p>
+                    <p> "What are you doing with that? Give that to me!" </p>
                 </div>
 
                 <div class='description'>
-                    <ul>
-                        <li>
-                            <a id="science-explore" href='science.html'> No, ghosts aren't even real. </a>
-                        </li>
-                        <li>
-                            <a id="science-shelf" href='science-shelf.html'> Sure, they might be lonely. </a>
-                        </li>
-                    </ul>
+                    <label> What should you say? </label>
+                    <input type="text" id='inputText'>
+                    <input type="button" value='Submit' onClick="secretMsg()">
                 </div>
             </div>
         </div>
@@ -54,5 +51,14 @@
         </div>
 
         <script src="../../scripts/book.js"></script>
+        <script>
+            function secretMsg() {
+                if (inputText.value.includes('plain') && inputText.value.includes('sight') ) {
+                    window.location.href= 'science-shelf.html';
+                } else {
+                    window.location.href = 'death-ghost.html';
+                }
+            }
+        </script>
     </body>
 </html>

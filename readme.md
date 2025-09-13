@@ -37,6 +37,17 @@ Contributors:
 - [Nhi Pham](https://github.com/bunnhimaybe)
 
 Images: 
+- Fontspace
+- Freepik
+- iStock
+- Vexels
+- StockCake
+- Amazon (Statue)
+- Ghostbusters Fandom (Ghost)
+- Nina Designs (Charm) 
+- The Garden History Blog (Librarian)
+- Mixkit (Audio)
+
 - [Background](https://www.freepik.com/free-vector/black-floral-elegant-pattern_883692.htm#fromView=search&page=1&position=5&uuid=5a910bda-4aa0-4a60-95ea-421c78e5f4aa&query=damask+pattern) - Freepik
 - [Book (closed)](https://www.istockphoto.com/vector/history-of-the-united-states-book-gm132076303-18473780) - iStock
 - [Book (open)](https://www.freepik.com/premium-vector/open-book-hand-drawn-illustration-vector-graphic-sketch-literary-volume_21769536.htm) - Freepik
