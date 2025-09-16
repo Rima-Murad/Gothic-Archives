@@ -1,2 +1,4 @@
 # ignore vscode settings
 .vscode/
+# ignore folder of unused ideas
+/game/scenes/unused/

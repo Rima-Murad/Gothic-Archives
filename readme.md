@@ -1,15 +1,14 @@
 # Gothic Archives
 
-Live demo: https://<yourname>.github.io/<repo>/
-Repo: https://github.com/<yourname>/<repo>
+Repo: https://github.com/Rima-Murad/Gothic-Archives
 
 ## Pitch
-1–2 sentences about the premise and tone.
+In this web game, you play as a library volunteer who was assigned to put away a strange book. As you look for the book's place, you discover that the library may not be what it seems.
 
 ## How to Play
 - Click “Start” on the landing page.
 - Make choices to explore different story branches.
-- Optional: mention any puzzles, codes, or endings.
+- Solve puzzles to unlock different outcomes.
 
 ## Tech
 - HTML (multi-page)
@@ -22,6 +21,11 @@ Gothic_Archives/
 ├── game/
 │   ├── assets
 │   ├── scenes
+		├── ficiton
+		├── history
+		├── intro
+		├── science
+		├── closet.html
 │   ├── scripts
 │   └── styles
 ├── docs/
