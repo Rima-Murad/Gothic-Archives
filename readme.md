@@ -1,6 +1,7 @@
 # Gothic Archives
 
 Repo: https://github.com/Rima-Murad/Gothic-Archives
+Game: https://github.com/Rima-Murad/Gothic-Archives/deployments/github-pages
 
 ## Pitch
 In this web game, you play as a library volunteer who was assigned to put away a strange book. As you look for the book's place, you discover that the library may not be what it seems.
